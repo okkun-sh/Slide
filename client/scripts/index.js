@@ -2,7 +2,6 @@ var React            = require('react');
 var ReactDOM         = require('react-dom');
 var createReactClass = require('create-react-class');
 
-//コンポーネントを定義
 var Index = createReactClass({
   render:function() {
     return (
@@ -11,11 +10,6 @@ var Index = createReactClass({
   }
 });
 
-import { hoge } from 'react';
-
-
-
-//id='content'の要素にコンポーネント「Index」を挿入してレンダリング
 ReactDOM.render(
   <Index />,
   document.getElementById('content')
